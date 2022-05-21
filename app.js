@@ -18,6 +18,17 @@ const createGrid = (rows, columns) => {
 
 createGrid(16, 16)
 
+//Add a button to the top of the screen prompting user for number of
+//squares per side
+const titleSection = document.getElementById('header')
+const title = document.createElement('h1')
+title.textContent = 'Etch-A-SketchPad'
+titleSection.append(title)
+
+let gridSizeButton = document.createElement('button')
+gridSizeButton.textContent = 'Select Grid Size?'
+title.appendChild(gridSizeButton)
+
 
 
 
