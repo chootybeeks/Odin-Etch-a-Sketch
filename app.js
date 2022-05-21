@@ -26,10 +26,7 @@ title.textContent = 'Etch-A-SketchPad'
 titleSection.append(title)
 
 let gridSizeButton = document.createElement('button')
+gridSizeButton.type = 'button'
 gridSizeButton.textContent = 'Select Grid Size?'
 title.appendChild(gridSizeButton)
-
-
-
-
 
