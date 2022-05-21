@@ -24,6 +24,7 @@ button {
     display: grid;
     width: 500px;
     height: 500px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .grid-item {
