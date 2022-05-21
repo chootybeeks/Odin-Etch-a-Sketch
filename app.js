@@ -16,7 +16,7 @@ const createGrid = (rows, columns) => {
     }
 }
 
-createGrid(16, 16)
+//createGrid(16, 16)
 
 //Add a button to the top of the screen prompting user for number of
 //squares per side
@@ -30,3 +30,9 @@ gridSizeButton.type = 'button'
 gridSizeButton.textContent = 'Select Grid Size?'
 title.appendChild(gridSizeButton)
 
+const getUserInput = () => {
+    let userInput = prompt('Please Enter a Number between 1 and 100: ')
+    createGrid(parseInt(userInput), parseInt(userInput))
+}
+
+gridSizeButton.addEventListener('click', getUserInput)
