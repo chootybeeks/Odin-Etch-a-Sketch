@@ -33,6 +33,7 @@ title.appendChild(gridSizeButton)
 const getUserInput = () => {
     let userInput = prompt('Please Enter a Number between 1 and 100: ')
     createGrid(parseInt(userInput), parseInt(userInput))
+    gridSizeButton.remove()
 }
 
 gridSizeButton.addEventListener('click', getUserInput)
