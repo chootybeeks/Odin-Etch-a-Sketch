@@ -16,10 +16,6 @@ button {
 
 #sketch-grid-container {
     display: grid;
-    column-gap: 0px;
-    row-gap: 0px;
-    grid-template-columns: repeat(var(--grid-columns), 1fr);
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
     width: 500px;
     height: 500px;
 }
