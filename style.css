@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh
@@ -7,8 +8,8 @@ body {
 
 #sketch-grid-container {
     display: grid;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    column-gap: 0px;
+    row-gap: 0px;
     grid-template-columns: repeat(var(--grid-columns), 1fr);
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     width: min-content;
