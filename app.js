@@ -21,8 +21,11 @@ createGrid(16, 16)
 
 const getUserInput = () => {
     let userInput = prompt('Please Enter a Number between 1 and 100: ')
+    const cell = sketchContainer.querySelectorAll('.grid-item')
+    cell.forEach(cell => cell.remove())
     createGrid(parseInt(userInput), parseInt(userInput))
-    gridSizeButton.remove()
 }
 
-gridSizeButton.addEventListener('click', getUserInput)
+const resizeButton = document.getElementById('resize-button')
+resizeButton.addEventListener('click', getUserInput)
+
