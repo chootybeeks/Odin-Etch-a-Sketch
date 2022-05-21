@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
 #sketch-grid-container {
     display: grid;
     grid-column-gap: 0px;
@@ -10,7 +17,7 @@
 .grid-item {
     padding: 1em;
     text-align: center;
-    border: 2px solid #000;
-    height: 50px;
-    width: 50px;
+    border: 1px solid #000;
+    height: auto;
+    width: auto;
 }
