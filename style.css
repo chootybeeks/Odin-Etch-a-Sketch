@@ -7,6 +7,12 @@ section {
     width: 100%;
 }
 
+h1 {
+    position: absolute;
+    top: 0px;
+    font-size: 4rem;
+}
+
 button {
     padding: 1rem .5rem;
     margin-top: 5rem;
