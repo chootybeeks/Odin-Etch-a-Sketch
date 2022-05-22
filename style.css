@@ -22,8 +22,8 @@ button {
 
 #sketch-grid-container {
     display: grid;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     box-shadow: 5px 5px 5px black;
 }
 
@@ -31,6 +31,6 @@ button {
     padding: 1em;
     text-align: center;
     border: 1px solid #000;
-    height: auto;
-    width: auto;
+    height: 1fr;
+    width: 1fr;
 }
