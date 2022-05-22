@@ -26,6 +26,11 @@ const getUserInput = () => {
     createGrid(parseInt(userInput), parseInt(userInput))
 }
 
+const clearGrid = () => {
+    const cell = sketchContainer.querySelectorAll('.grid-item')
+    cell.forEach(cell => cell.style.backgroundColor = 'white')
+}
+
 const resizeButton = document.getElementById('resize-button')
 resizeButton.addEventListener('click', getUserInput)
 
