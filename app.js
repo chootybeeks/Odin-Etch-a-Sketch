@@ -8,8 +8,8 @@ const createGrid = (rows, columns) => {
     //for loop to create a div for each 'cell' and append it to the sketchContainer
     for (let i = 0; i < rows * columns; i++) {
         let cell = document.createElement('div')
-        sketchContainer.style.gridTemplateRows = `repeat(${columns}, 1fr)`
-        sketchContainer.style.gridTemplateColumns = `repeat(${rows}, 1fr)`
+        sketchContainer.style.gridTemplateRows = `repeat(${columns}, auto)`
+        sketchContainer.style.gridTemplateColumns = `repeat(${rows}, auto)`
         sketchContainer.appendChild(cell).className = 'grid-item'
         cell.addEventListener('mousemove', () => {
             cell.style.backgroundColor = 'black' 
