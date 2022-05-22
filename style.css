@@ -28,9 +28,8 @@ button {
 }
 
 .grid-item {
-    padding: 1em;
+    padding: 0;
     text-align: center;
-    border: 1px solid #000;
     height: 1fr;
     width: 1fr;
 }
