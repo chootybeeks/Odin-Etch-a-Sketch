@@ -29,3 +29,5 @@ const getUserInput = () => {
 const resizeButton = document.getElementById('resize-button')
 resizeButton.addEventListener('click', getUserInput)
 
+const clearGridButton = document.getElementById('clear-grid-button')
+clearGridButton.addEventListener('click', clearGrid)
