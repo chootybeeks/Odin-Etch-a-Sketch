@@ -19,8 +19,9 @@ section {
 h1 {
     position: absolute;
     top: 0px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: antiquewhite;
+    font-family: Permanent Marker, sans-serif;
    }
 
 button {
@@ -33,7 +34,10 @@ button {
     color: var(--neon-color);
     border-radius: .25em;
     background-color: black;
-    opacity: 1;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 #sketch-grid-container {
