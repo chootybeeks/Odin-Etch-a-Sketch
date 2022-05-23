@@ -24,10 +24,16 @@ h1 {
    }
 
 button {
-    padding: 1rem .5rem;
+    padding: 1rem 1rem;
     margin-top: 5rem;
     width: fit-content;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: var(--neon-color) 0.125em solid;
+    color: var(--neon-color);
+    border-radius: .25em;
+    background-color: black;
+    opacity: 1;
 }
 
 #sketch-grid-container {
