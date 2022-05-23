@@ -1,3 +1,7 @@
+:root {
+    --neon-color: hsl(111, 100%, 54%)
+}
+
 body {
     margin: 0;
 }
